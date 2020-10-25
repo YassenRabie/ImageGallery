@@ -68,7 +68,7 @@ const Gallery = () => {
                 className="photos-container"
             >
                 {galleryData.photos.map(image => (
-                    <img src={image.src.portrait} onClick={() => showPhotoModal(image)} />
+                    <img src={image.src.portrait || image.src.landscape || image.src.medium} onClick={() => showPhotoModal(image)} />
                 ))}
             </InfiniteScroll>
             {(galleryData.photos.length === 0) && <p>There is no images for this search...</p>}
