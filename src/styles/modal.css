@@ -1,0 +1,44 @@
+.ReactModal__Overlay {
+    background: blue;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.5);
+    background-color: gray;
+}
+
+.modal .close {
+    z-index: 10;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: .5rem;
+    cursor: pointer;
+}
+
+.modal .close .fa {
+    font-size: 40px;
+    color: #222f3e;
+    text-shadow: 0 0 5px black;
+}
+
+.modal-container img {
+    height: 100%;
+    /* height: 100%; */
+}

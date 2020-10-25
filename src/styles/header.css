@@ -1,0 +1,9 @@
+nav {
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    color: #222f3e;
+}
