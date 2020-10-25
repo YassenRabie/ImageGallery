@@ -36,7 +36,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .photos-container {
         -moz-column-count: 1;
         -webkit-column-count: 1;
@@ -54,5 +54,4 @@
 .photos-container img:hover {
     transform: scale(1.001);
     box-shadow: 0 0 25px black;
-    /* z-index: 2; */
 }
