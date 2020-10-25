@@ -36,7 +36,7 @@
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 400px) {
     .photos-container {
         -moz-column-count: 1;
         -webkit-column-count: 1;
