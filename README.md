@@ -1,6 +1,6 @@
 # Image gallery app With React using Unsplash API
 
-![Design preview](./design/desktop-preview.jpg)
+![Design preview](./design/desktop-design.jpg)
 
 ## Welcome! 👋
 
